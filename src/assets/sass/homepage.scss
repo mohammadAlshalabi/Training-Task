@@ -1,0 +1,140 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.main_header {
+	width: 100%;
+	height: 80px;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+}
+
+.left_header {
+	width: 30%;
+	height: 100%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+	#sign_up {
+		background-color: hsl(180, 66%, 49%);
+		border-radius: 25px;
+		width: 80%;
+		height: 50%;
+		:hover{
+			opacity: .5;
+		}
+	}
+}
+
+.inner_header {
+	width: 70%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	float: left;
+}
+
+.logo {
+	height: 100%;
+	display: block;
+	float: left;
+	svg {
+		margin: 20% 100%;
+	}
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+	a {
+		height: 100%;
+		display: table;
+		float: left;
+		padding: 0px 50px;
+		li {
+			display: table-cell;
+			vertical-align: middle;
+			height: 100%;
+			color: black;
+			font-family: 'Poppins', sans-serif;
+		}
+	}
+}
+
+.first_section {
+	width: 100%;
+	height: 700px;
+	display: block;
+}
+
+.right_section {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.left_section {
+	width: 50%;
+	height: 100%;
+	float: left;
+	h1 {
+		margin: 70px 100px;
+		font-family: 'Poppins', sans-serif;
+	}
+}
+
+.left_section p {
+	opacity: .5;
+	margin: 70px 100px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.left_section button {
+	background-color: hsl(180, 66%, 49%);
+	border: none;
+	color: white;
+	padding: 30px 70px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 30px 100px;
+	border-radius: 20px;
+	font-family: 'Poppins', sans-serif;
+	:hover {
+		background-color: hsl(180, 66%, 40%);
+	}
+}
+
+.second_section {
+	width: 100%;
+	height: 700px;
+	display: block;
+	background-color: hsl(0, 0%, 95%)
+}
+
+.short_url {
+	width: 1110px;
+	height: 168px;
+	display: block;
+	background-color: hsl(257, 27%, 26%);
+	border-radius: 25px;
+	svg {
+		position: absolute;
+		border-radius: 25px;
+	}
+}
+
+.short_url .form {
+	width: 80%;
+	height: 50%;
+	// margin: 50px;
+	// align-self: auto;
+	z-index: 2;
+}
+
+.form input[type='url'] {
+	margin: 20px;
+}
