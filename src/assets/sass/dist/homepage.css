@@ -103,6 +103,7 @@
   margin: 30px 100px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
+  outline: none;
 }
 .left_section button :hover {
   background-color: #23a9a9;
@@ -127,12 +128,61 @@
   border-radius: 25px;
 }
 
-.short_url .form {
-  width: 80%;
-  height: 50%;
-  z-index: 2;
+input {
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+  outline: none;
 }
 
-.form input[type=url] {
-  margin: 20px;
+input[type=url] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  border: 2px solid red;
+}
+
+input[type=button] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #2acfcf;
+  color: white;
+}
+
+span {
+  color: red;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  margin: 8px;
+}
+
+.new_item {
+  width: 1110px;
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.new_item p {
+  margin-left: 20px;
+  float: left;
+  margin-top: 15px;
+}
+.new_item button {
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 8px;
+  border-radius: 15px;
+  background-color: #2acfcf;
+  outline: none;
+  border-style: none;
+  color: white;
+}
+.new_item .shorten_url {
+  float: right;
+  padding-right: 20px;
 }
