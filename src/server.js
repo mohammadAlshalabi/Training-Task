@@ -9,7 +9,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 app.get('/', serveHomepage);
-app.get('/', serveHomepage);
 
 async function serveHomepage(req, res) {
 	res.render('homepage')
