@@ -12,6 +12,10 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+.main_container {
+	width: 1110px;
+}
+
 .left_header {
 	width: 30%;
 	height: 100%;
@@ -81,14 +85,14 @@
 	height: 100%;
 	float: left;
 	h1 {
-		margin: 70px 100px;
+		margin-top: 70px;
 		font-family: 'Poppins', sans-serif;
 	}
 }
 
 .left_section p {
 	opacity: .5;
-	margin: 70px 100px;
+	margin-top: 70px;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -111,9 +115,9 @@
 
 .second_section {
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	display: block;
-	background-color: hsl(0, 0%, 95%)
+	background-color: hsl(0, 0%, 95%);
 }
 
 .short_url {
@@ -180,10 +184,146 @@ span {
 		outline: none;
 		border-style: none;
 		color: white;
-		
 	}
 	.shorten_url {
 		float: right;
 		padding-right: 20px;
+	}
+}
+
+.advanced_statistics {
+	width: 1110px;
+	height: 400px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 200px;
+	p {
+		max-width: 470px;
+	}
+}
+
+.cards {
+	width: 1110px;
+	height: 400px;
+}
+
+.card_items {
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	margin-right: 40px;
+	text-align: left;
+	border-radius: 20px;
+	padding-left: 25px;
+	h2 {
+		padding-top: 100px;
+	}
+	p {
+		padding-top: 30px;
+	}
+}
+
+.icon {
+	position: absolute;
+	background-color: hsl(257, 27%, 26%);
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	svg {
+		margin-top: 25%;
+		margin-left: 25%;
+	}
+}
+
+hr {
+	// height: 30px;
+	color: blue;
+}
+
+.footer {
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.boost {
+	height: 250px;
+	background-color: hsl(257, 27%, 26%);
+	h1 {
+		color: white;
+	}
+	button {
+		width: 200px;
+		height: 60px;
+		border-radius: 15px;
+		background-color: hsl(180, 66%, 49%);
+		outline: none;
+		border-style: none;
+		color: white;
+		margin-top: 40px;
+	}
+}
+
+.footer_links {
+	width: 100%;
+	height: 350px;
+	background-color: hsl(260, 8%, 14%);
+}
+
+.links_container {
+	width: 1110px;
+	height: 100%;
+}
+
+.bottom_logo {
+	margin-top: 100px;
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	path {
+		color: white;
+	}
+}
+
+.links {
+	width: 50%;
+	height: 100%;
+	float: left;
+	color: white;
+	text-align: center;
+	text-align: left;
+	ul {
+		float: left;
+		margin-top: 100px;
+		margin-right: 60px;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	li {
+		font-weight: normal;
+	}
+}
+
+.social_sharing {
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin-top: 100px;
+	path {
+		pointer-events:all;
+	}
+	path:hover {
+		fill: hsl(180, 66%, 40%);
+	}
+	li {
+		padding-right: 20px;
+		float: left;
 	}
 }
